@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    width: 300px;
+}
+.mision{
+    background-color: rgb(241, 222, 187);
+    text-align: center;
+    font-size: 22px;
+    padding-left: 15%;
+    padding-bottom: 8%;
+    padding-right: 15%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    font-size: 90px;
+    color: rgb(216, 130, 0);
+    text-align: center;
+}
+.comida3{
+    position: absolute;
+    float: inline-end;
+    margin-top: 200px;
+}
+.comida2{
+    position: absolute;
+    float: right;
+    margin-left: 80%;
+    margin-top: -90px;
+}
