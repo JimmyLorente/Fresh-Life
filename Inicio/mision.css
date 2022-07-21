@@ -1,36 +1,37 @@
-*{
-    box-sizing: border-box;
-}
-body{
-    margin: 0%;
-    padding: 0%;
-}
-img{
-    width: 300px;
-}
+
 .mision{
-    background-color: rgb(241, 222, 187);
-    text-align: center;
-    font-size: 22px;
-    padding-left: 15%;
-    padding-bottom: 8%;
-    padding-right: 15%;
-    margin-left: 20px;
-    margin-right: 20px;
+    display: grid;
+    margin: 4rem auto; 
 }
+
+
+.cuerpo{
+    background-color: rgb(233, 112, 56);
+    grid-column: 2/2;
+    width: 50%;
+    padding: 20px;
+    padding-bottom: 80px;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+
+}
+
 h1{
-    font-size: 90px;
-    color: rgb(216, 130, 0);
     text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
 }
-.comida3{
+
+.te{
+    width: 15%;
     position: absolute;
-    float: inline-end;
-    margin-top: 200px;
+    margin-left: 40%;
+    margin-top: -4%;
 }
-.comida2{
+
+.piña{
+    width: 20%;
     position: absolute;
-    float: right;
-    margin-left: 80%;
-    margin-top: -90px;
+    margin-top: -8%;
 }
