@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta neame="viewport" content="width=device-whidth, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/recetas.css">
+    <title>Recetas Fresh life </title>
+</head>
+<body>
+    <div id="main-conteiner">
+        <div id="recetas-section" class="bg-recetas">
+        </div>
+
+        <div class="recetas=titulo">
+            <h1>LAS MEJORES</h1>
+            <h3>Recetas saludables</h3>
+            </div>     
+            
+            <div id="recetas-content">
+                <section>
+                    <h2>Desayunos</h2>
+                    <div class="thumbnail">
+                        <div class="image">
+                        <a href=""><img src="https://enjoymo.net/wp-content/uploads/2021/08/ensalada-con-naranja-queso-y-pistachos-1280x720.jpg" alt=""></a> 
+
+                        </div>
+                        <div class="info">
+                            <div class="title">ENSALADA CON NARANJA, QUESO Y PISTACHOS</div>
+                            <div class="type">Desayuno</div>
+                            
+                        </div>
+
+                    </div> <!-- Prueba -->
+
+                    <div class="thumbnail">
+                        <div class="image">
+                        <a href=""><img src="https://content-cocina.lecturas.com/medio/2021/07/28/pepino-con-sardinas_abfbeab5_1200x630.jpg" alt=""></a> 
+
+                        </div>
+                        <div class="info">
+                            <div class="title">CARPACCIO DE PEPINO CON SARDINAS</div>
+                            <div class="type">Desayuno</div>
+                            <div class="descripcion">Una receta que mejora la salud y te cuida porque el pepino aporta fibra, vitaminas del grupo B, C, E y A y contiene importantes minerales como el hierro, el calcio, el fósforo, el magnesio y el potasio.</div>
+
+                            
+                        </div>
+
+                    </div> <!-- Prueba -->
+
+                    <div class="thumbnail">
+                        <div class="image">
+                        <a href=""><img src="https://recetasdecocina.elmundo.es/wp-content/uploads/2020/03/receta-crema-de-guisantes.jpg" alt=""></a> 
+
+                        </div>
+                        <div class="info">
+                            <div class="title">CREMA DE GUISANTES</div>
+                            <div class="type">Desayuno</div>
+                            <div class="descripcion">Las cremas son perfectas para invierno y verano. Puedes aprovechar para hacer cremas saludables con las verduras que tengas en el frigorífico. Los guisantes son una fuente de proteína vegetal y numerosos minerales y previenen las enfermedades del corazón gracias a su contenido en luteína, que reduce colesterol. ¡Cuídate con una buena crema de guisantes!</div>
+
+                            
+                        </div> 
+
+                    </div> <!-- Prueba -->
+
+                    <div class="thumbnail">
+                        <div class="image">
+                        <a href=""><img src="https://static.onecms.io/wp-content/uploads/sites/21/2018/09/18/recetas-4106-crema-de-zanahoria-facil-2000.jpg" alt=""></a> 
+
+                        </div>
+                        <div class="info">
+                            <div class="title">CREMA DE ZANAHORIA</div>
+                            <div class="type">Desayuno</div>
+                            <div class="descripcion">Anota esto: las zanahorias son ricas en vitaminas (C, E, B3, B6, B1, B2); carotenos, retinol y ácido fólico. ¿Te parece preparar una crema con ellas?</div>
+
+                            
+                        </div> 
+
+                    </div>
+
+
+                
+
+                </section>
+
+            </div>
+
+
+    </div>
+                </body>
+ 
