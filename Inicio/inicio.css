@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#contenedorid{
+    height: 800px;
+    width: 900px;
+    overflow: hidden;
+    margin-top: 10%;
+    margin-left: 15%;
+
+}
+
+.itemCarrusel{
+    height: 800px;
+    position: relative;
+}
+
+.tarjetacarrusel{
+    height: 40%;
+}
+
+.flechascarrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 75px;
+}
+
+a{
+    text-decoration: none; /*para quitar las rayas a los link*/
+}
+
+i{
+    color: rgb(0, 0, 0);
+    font-size: 2.0em;
+}
+/*aqui nose como mover los puntos
+#contepuntos{
+    justify-content: space-around;
+    background-color: rgb(197, 194, 194);
+    position: absolute;
+    margin-bottom: 60px;
+}
+*/
+img{
+    width: 100%;
+    height: 100%;
+}
+/* Aqui va la mision y vision del incio */
+.ifmision{
+    width: 100%;
+    height: 3500px;
+}

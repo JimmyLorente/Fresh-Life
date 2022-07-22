@@ -1,0 +1,37 @@
+
+.mision{
+    display: grid;
+    margin: 4rem auto; 
+}
+
+
+.cuerpo{
+    background-color: rgb(233, 112, 56);
+    grid-column: 2/2;
+    width: 50%;
+    padding: 20px;
+    padding-bottom: 80px;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.te{
+    width: 15%;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -4%;
+}
+
+.piña{
+    width: 20%;
+    position: absolute;
+    margin-top: -8%;
+}
