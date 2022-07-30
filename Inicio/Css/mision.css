@@ -1,7 +1,8 @@
 
 .mision{
-    display: grid;
-    margin-top: 10%;
+    margin: 0% auto;
+    padding: 0;
+    width: 1400px;
 }
 
 
@@ -24,15 +25,15 @@ h1{
     font-size: 40px;
 }
 
-.te{
+/* .te{
     width: 15%;
     position: absolute;
     margin-left: 40%;
     margin-top: -4%;
-}
+} */
 
-.piña{
+/* .piña{
     width: 20%;
     position: absolute;
-    margin-top: -8%;
-}
+    margin-top: -10%;
+} */

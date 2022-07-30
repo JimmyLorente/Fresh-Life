@@ -1,4 +1,7 @@
-
+*{
+    margin: 0% auto;
+    padding: 0%;
+}
 .empleo{
     text-align: center;
     width: 100%;
