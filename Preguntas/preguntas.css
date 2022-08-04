@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.background{
+    width: 1600px;
+    height: 40%;
+    max-width: 100%;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
 .contenedor{
     width: 90%;
     margin: 100px auto;
