@@ -1,9 +1,9 @@
-let pregunta = document.querySelector('.pregunta');
-let btndebajo = document.querySelector('.pregunta .mas')
+let pregunta = document.querySelectorAll('.pregunta');
+let btndebajo = document.querySelectorAll('.pregunta .mas')
 let respuesta = document.querySelectorAll('.respuesta');
 let parrafo = document.querySelectorAll('.respuesta p');
 
-for ( let i = 0; i < btndebajo; i ++) {
+for ( let i = 0; i < btndebajo.length; i ++) {
     
     let altoParrafo = parrafo[i].clientHeight;
     let switchc = 0;
