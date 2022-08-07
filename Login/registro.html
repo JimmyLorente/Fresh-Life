@@ -8,7 +8,7 @@
     <body>
         <style>
         body {
-	background-image: url('../Fresh-Life/Imagenes/fondo_de_login.jpg');
+	background-image: url('../Login/Imagenes/fondo_de_login.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
     backdrop-filter: blur(5px);
@@ -16,13 +16,13 @@
 
             .gradient-custom-2 {
 
-background: #90fcb4;
+background: #fc9090;
 
 
-background: -webkit-linear-gradient(to right, #4cee24, #49d836, #3cdd36, #49b445);
+background: -webkit-linear-gradient(to right, #ee2424, #d83636, #dd5d36, #b45f45);
 
 
-background: linear-gradient(to right, #46ee24, #36d879, #36ddb3, #35ebe2);
+background: linear-gradient(to right, #ee2424, #d84136, #dd5736, #eb7e35);
 
 }
 
@@ -41,6 +41,20 @@ border-bottom-right-radius: .3rem;
         </style>
     </body>
     <body>
+      <body>
+        <SCRIPT  language=JavaScript> 
+        function go(){
+        
+        if (document.form.password.value=='12345' && document.form.login.value=='Fresh life'){ 
+                document.form.submit(adadad); 
+            } 
+            else{ 
+                 alert("Error en Usuario o Contraseña. Intenta de nuevo."); 
+            } 
+        } 
+        </SCRIPT> 
+       
+       
         
     <div class="container py-5 h-100">
       <div class="row d-flex justify-content-center align-items-center h-100">
@@ -51,46 +65,43 @@ border-bottom-right-radius: .3rem;
                 <div class="card-body p-md-5 mx-md-4">
   
                   <div class="text-center">
-                    <img src="../Fresh-Life/Imagenes/logo_de_pagina.jpg"
+                    <img src="../Login/Imagenes/logo_de_pagina.jpg"
                       style="width: 80px; padding-top: -200px;"  alt="logo">
                     <h4 class="mt-1 mb-5 pb-1">Fresh Life</h4>
                   </div>
   
-                  <form>
-                    <p>REGISTRATE</p>
+                  <FORM name=form action="index.html">
+                    <p>INGRESA TUS DATOS</p>
   
                     <div class="form-outline mb-4">
-                      <input type="email" id="form2Example11" class="form-control"
-                        placeholder="Email" />
+                        <P><INPUT type="email" id="form2Example11" class="form-control"
+                           type=text name=login> 
                       <label class="form-label" for="form2Example11">Usuario</label>
                     </div>
   
                     <div class="form-outline mb-4">
-                      <input type="password" id="form2Example22" class="form-control" />
+                      <P><INPUT  id="form2Example22" class="form-control" type=password name=password> 
                       <label class="form-label" for="form2Example22">Contraseña</label>
                     </div>
                     <form>
                    <div class="text-center pt-1 mb-5 pb-">
-                    <a href="http://127.0.0.1:5500/Fresh-Life/index.html">
-                        <input type="button" class= "btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" value="Ingresar"> 
-                      
+                      <INPUT type="button" class= "btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" onclick=go()  value=Acceder>
+                        
                         <div class="text-center pt-1 mb-5 pb-"> 
-                            <a href="http://127.0.0.1:5500/Fresh-Life/Crear%20cuenta/Crear%20cuenta.html">
+                            <a href="../Login/Crear cuenta/Crear cuenta.html">
                             <input type="button" class= "btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" value="Crear Cuenta">  <a href="../Fresh-Life/index.html"></a> 
                         </div> 
                         
                     </a>
-                </form>
+                  </FORM> 
                  </div> 
                 </div>
               </div>
               <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
                 <div class="text-white px-3 py-4 p-md-5 mx-md-4">
                   <h4 class="mb-4">Comida y Dieta saludable</h4>
-                  <p class="small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <img src="../Fresh-Life/Imagenes/imagen_de_plato.png" 
+                  <p class="small mb-0">Resalta la importancia de las frutas, las verduras, los cereales integrales, la leche y los productos lácteos sin grasa o bajos en grasa. Incluye una variedad de alimentos con proteínas como mariscos, carnes magras, huevos, legumbres (frijoles y guisantes), productos de soya, nueces y semillas.</p>
+                    <img src="../Login/Imagenes/imagen_de_plato.png" 
                     style="width: 200px;"  alt="logo">
                 </div>
               </div>
@@ -99,6 +110,7 @@ border-bottom-right-radius: .3rem;
         </div>
       </div>
     </div>
+    
   </section>
-</body>
+  
   </html>

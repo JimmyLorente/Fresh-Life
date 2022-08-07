@@ -15,7 +15,7 @@ body{
 
 
 #advanced-search-form{
-    background: linear-gradient(to right, #46ee24ec, #3efc8dea, #33fac8e8, #00fff2e8);
+    background: linear-gradient(to right, #ee2424de, #d84136dc, #dd5736de, #eb7e35d8);
     max-width: 800px;
     margin: 160px auto 0;
     padding: 40px;
@@ -34,7 +34,7 @@ body{
     margin-top: 38px;
     margin-bottom: 54px;
     margin-left:3px;
-    border: 1px solid #cccccc;
+    border: 1px solid #fdfdfd;
 
 }
 
@@ -93,5 +93,6 @@ body{
 
     h2{
         text-align: center;
+        
     }
 }
