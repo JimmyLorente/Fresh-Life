@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    background: rgb(253, 173, 97);
+    color: white;
+    border-radius: 10px;
+}
+
+body{
+    width: 1600px;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+}
+
+.inicio{
+    height: 200px;
+    width: 800px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.inicio img{
+    width: 100%;
+    height: 100%;
+}
+
+.grupo {
+    width: 500px;
+    background: rgb(247, 207, 174);
+    max-width: 100%;
+    margin-top: 5%;
+    margin-left: 32%;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px orangered;
+    position: relative;
+}
+
+.formulario_titulo, .llenar, .submit{
+    display: block;
+    width: 100%;
+    border: none;
+    font-family: cursive;
+}
+
+.llenar{
+    border: 1px solid rgb(144, 150, 151);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.submit{
+    width: 100%;
+    background: rgb(235, 149, 52);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+.submit:hover{
+    box-shadow: 0 0 15px -1px rgb(240, 81, 42);
+}
+h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+}

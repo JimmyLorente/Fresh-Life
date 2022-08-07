@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+.background{
+    width: 1600px;
+    max-width: 100%;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
 .contenedor{
     width: 90%;
     margin: 100px auto;
+    background-color: rgb(228, 195, 153);
 }
 
 .grupo{
@@ -20,7 +28,7 @@
 }
 
 .item{
-    box-shadow: 0 0 15px -1px rgb(216, 216, 216);
+    box-shadow: 0 0 15px -1px rgb(245, 150, 150);
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -30,7 +38,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(152, 153, 152);
+    background: rgb(255, 191, 95);
     padding: 20px 20px 20px 80px;
     transition: .4s;
 }
@@ -39,7 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 15px -1px gainsboro;
+    box-shadow: 0 0 15px -1px rgb(248, 134, 68);
     width: 40px;
     height: 40px;
     font-size: 1rem;
@@ -48,7 +56,7 @@
 }
 
 .mas:hover{
-    box-shadow: 0 0 15px -1px rgb(117, 117, 117);
+    box-shadow: 0 0 15px -1px rgb(255, 6, 6);
 }
 
 .pregunta span{

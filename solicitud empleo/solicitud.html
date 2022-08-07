@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="solicitud.css">
+    <title> Solicitud </title>
+</head>
+<body background="/Recetas/img/fondi.jpeg">
+    <div class="inicio">
+        <img  src="oso.gif">
+        <h3> Unete a nuestro equipo </h3> 
+    </div>
+
+    <form class="grupo">
+        <div class="nombre">
+            <label class="formulario_titulo" > Nombres: </label>
+            <input class="llenar" type="text" name="nombre">
+        </div>
+
+        <div class="email">
+            <label class="formulario_titulo"> Email: </label>
+            <input  class="llenar" type="email" name="email">
+        </div>
+
+        <div class="cell">
+            <label class="formulario_titulo" > Telefono: </label>
+            <input class="llenar" type="tel" name="telefono" placeholder="+593 Telefono">
+        </div>
+
+        <div class="fecha">
+            <label class="formulario_titulo" > Fecha de Nacimiento  </label>
+            <input  class="llenar" type="date" id="fecha" min="1950-01-01" max="2022-12-31">
+            <!-- <h1 id="edad"></h1> -->
+        </div>
+
+        <div class="mensaje">
+            <label class="formulario_titulo" > Describete: </label>
+            <textarea  class="llenar" name="mensaje"></textarea>
+        </div>
+
+        <div>
+            <input  class="submit" type="button" value="ENVIAR" id="boton">
+        </div>
+    </form>
+<script src="solicitud.js"></script>
+</body>
+</html>

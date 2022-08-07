@@ -7,22 +7,20 @@
     flex-direction: column;
 }
 
-.barra{
-    width: 100% !important;
-    height: 115px;
-    border: none;
+.barra_inicio{
+    width: 1280px !important;
+    max-width: 100%;
+    height: 70px;
 }
 .menu{
-    width: 100% !important;
-    height: 500px;
+    width: 1280px !important;
+    height: 650px;
     border: none;
-    margin: auto 10%;
 }
 .mision{
-    width: 100% !important;
-    height: 625px;
+    width: 1300px!important;
+    height: 725px;
     border: none;
-    margin: auto 20%;
 }
 
 .empleados{
