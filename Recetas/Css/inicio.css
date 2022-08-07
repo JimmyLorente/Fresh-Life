@@ -38,28 +38,6 @@ img{
     border-radius: 1000px;
 }
 
-nav{
-    margin: 3rem 0 8rem 0;
-    background-color: rgba(255, 55, 55, 0.768);
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    gap: 10rem;
-}
-a{
-    text-decoration: none;
-}
-nav a{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 3rem;
-    color: white;
-    text-transform: uppercase;
-}
-nav a:hover{
-    color: black;
-}
-
 .nuestras-recetas{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
