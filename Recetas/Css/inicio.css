@@ -3,15 +3,19 @@ html{
     font-size: 60.5%;
 }
 
-::before,*::after{
+*,*::before,*::after{
     box-sizing: inherit;
 }
 
 .img-fondo{
-background-image: url(/Recetas/img/fondi.jpeg);
+background-image: url(/IMG/fondi.jpeg);
 }
 img{
-    width: 100%;
+    width: 90%;
+    margin: 1.8rem;
+    height: 30rem;
+    border-radius: 50px;
+    display: block;
 }
 .velo-negro{
     background-color:rgba(0, 0, 0, 0.5);
@@ -29,8 +33,9 @@ img{
 
 .logo-img{
     margin: 3rem 0;
-    width: 100px;
-    border-radius: 100px;
+    width: 300px;
+    height: 30rem;
+    border-radius: 1000px;
 }
 
 nav{
@@ -77,24 +82,20 @@ nav a:hover{
 }
 
 .producto-blanco{
-    background-color: white;
     height: 40rem;
     object-fit: contain;
     padding: 1rem;
 }
 
-.producto-precio,
 .producto-nombre{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     text-align: center;
+    width: center;
 }
 
-.producto-precio{
-    font-size: 2.5rem;
-    font-weight: 500;
-}
+
 .producto-nombre{
     font-size: 3rem;
     font-weight: 800;
@@ -108,24 +109,6 @@ nav a:hover{
     color: white;
     font-size: 2rem;
     text-align: center;
-}
-
-.nosotros{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-gap: 10rem;
-margin-bottom: 20rem;
-
-}
-.nosotros-texto{
-    color: white;
-    font-size: 3rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.nosotros-img{
-    background-color: white;
-    border-radius: 5%;
 }
 
 .bloques{
@@ -161,4 +144,26 @@ margin-bottom: 20rem;
 .enlace-footer:hover{
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+.btn{
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.btn-green{
+    color: white;
+    background-color: black;
+    margin: 10px 120px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-green:hover{
+    background-color: green;
 }
