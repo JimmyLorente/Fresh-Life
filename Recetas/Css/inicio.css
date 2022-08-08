@@ -145,3 +145,17 @@ img{
 .btn-green:hover{
     background-color: green;
 }
+
+
+.btn-danger{
+    color: white;
+    background-color: black;
+    margin: 10px 12px;
+    display: flex;
+    flex-direction:column ;
+        
+    }
+
+.btn-danger:hover{
+    background-color: green;
+}
