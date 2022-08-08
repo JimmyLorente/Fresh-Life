@@ -78,3 +78,16 @@ h3{
     text-align: center;
     font-family: cursive;
 }
+
+.barra_inicio{
+    width: 1350px !important;
+    max-width: 100%;
+    height: 110px;
+}
+
+.footer{
+    width: 100% !important;
+    height: 394px;
+    border: none;
+    margin-top: 40px;
+}
