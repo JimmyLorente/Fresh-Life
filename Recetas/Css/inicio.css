@@ -145,3 +145,16 @@ img{
 .btn-green:hover{
     background-color: green;
 }
+
+.barra_inicio{
+    width: 1280px !important;
+    max-width: 100%;
+    height: 110px;
+}
+
+.footer{
+    width: 100% !important;
+    height: 450px;
+    border: none;
+    margin-bottom: 50px;
+}
