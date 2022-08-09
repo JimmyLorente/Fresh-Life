@@ -11,7 +11,7 @@
 }
 
 
-img{
+.instagram img{
     width: 350px;
     height: 340px;
     transition: 0.5s;
@@ -19,11 +19,11 @@ img{
     margin: 10px;
 }
 
-img:hover{
+.instagram img:hover{
     transform: scale(1.2);
 }
 
-h1{
+.instagram h1{
     grid-column: 1/4;
     text-indent: 90px;
     letter-spacing: 2px;
