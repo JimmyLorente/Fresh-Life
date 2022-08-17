@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/solicitud.css">
+    <link rel="stylesheet" type="text/css" href="../static/barra.css">
+   
+    <title> Opiniones </title>
+</head>
+<div class="barra_inicio">
+    <ul class="menu">
+        <li><a href="../Inicio/html/index.html">Inicio</a></li>
+        <li><a href="/opinion/solicitud.html">Opiname </a></li>
+        <li><a href="/Recetas/Receta.html">Recetas</a></li>
+        <li><a href="/Preguntas/pregunta.html">Preguntas</a></li>
+        <li><a href="/Login/inicio_de_sesion.html">Entrar</a></li>
+    </ul>
+</div>
+
+
+<body background="/Inicio/img/pregun.jpg">
+    <div class="inicio">
+        <img  src="/static/oso.gif">
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <h3> Dejanos tu opinion  </h3> 
+ <form action="{% url 'create_task' %}" method="POST" class="card card-body" >
+        {% csrf_token %}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post">
+                            <fieldset>        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="nombre" name="nombre" type="text" placeholder="nombre" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="direccion" name="direccion" type="text" placeholder="direccion" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="cell" name="cell" type="text" placeholder="cell" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="mensaje" name="mensaje" type="text" placeholder="mensaje" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    {% for task in tasks %}
+        <div>
+           <p>{{task.nombre}}</p> 
+           <p>{{task.direccion}}</p> 
+           <p>{{task.cell}}</p> 
+           <p>{{task.mensaje}}</p> 
+
+           <form action="{% url 'delete_task'  task.id %}" method="POST">
+            {% csrf_token %}
+           <button>Eliminar</button>
+           </form>  
+        </div>
+        {% empty %}
+        <h1>Agrega tu primera opinion</h1>  
+    {% endfor %}
+            </div>
+        </div>
+    </div>
+
+
+   
+
+</body>
+</html>
